@@ -1,20 +1,20 @@
-package com.example.demo.to;
+package com.example.demo.dto;
 
-public class UsersTo {
+public class UserDTO {
 
 	private Long id;
 	private String name;
 	private String email;
 	
-	public UsersTo() {}
+	public UserDTO() {}
 	
-	public UsersTo(Long id, String name, String email) {
+	public UserDTO(Long id, String name, String email) {
 		this.id = id;
 		this.name = name;
 		this.email = email;
 	}
 	
-	public UsersTo(String name, String email) {
+	public UserDTO(String name, String email) {
 		this.name = name;
 		this.email = email;
 	}
