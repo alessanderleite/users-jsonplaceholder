@@ -6,5 +6,5 @@ import com.example.demo.model.User;
 
 public interface UserService {
 
-	public List<User> findAllUsers();
+	List<User> findAllUsers();
 }
